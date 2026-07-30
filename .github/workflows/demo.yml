@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
 
 #jobs to run
-jobs
+jobs:
   #job ID or name
-    greet:
+   greet:
       #the type of runner to use
       runs-on: ubuntu-latest
 
