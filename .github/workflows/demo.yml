@@ -5,7 +5,7 @@ name: Hello world worflow
 on:
   #triggers on pushed to a branch
   push: 
-    branches: [dev,staging]
+    branches: [main]
   #allows manual triggering from the actions tab
   workflow_dispatch:
 
